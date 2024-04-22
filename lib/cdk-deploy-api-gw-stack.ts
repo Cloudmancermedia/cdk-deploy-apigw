@@ -4,7 +4,7 @@ import { Runtime } from 'aws-cdk-lib/aws-lambda';
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { LambdaRestApi, LambdaIntegration } from 'aws-cdk-lib/aws-apigateway';
 
-export class CdkDeployNodejsLambdaStack extends Stack {
+export class CdkDeployApiGwStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
