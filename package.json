@@ -1,8 +1,8 @@
 {
-  "name": "cdk-deploy-nodejs-lambda",
+  "name": "cdk-deploy-api-gw",
   "version": "0.1.0",
   "bin": {
-    "cdk-deploy-nodejs-lambda": "bin/cdk-deploy-nodejs-lambda.js"
+    "cdk-deploy-api-gw": "bin/cdk-deploy-api-gw.js"
   },
   "scripts": {
     "build": "tsc",
