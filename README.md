@@ -15,8 +15,8 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 to test your endpoint 
 
-* curl -H "Origin: http://google.com" \
-* -H "Access-Control-Request-Method: GET" \
-* -H "Access-Control-Request-Headers: X-Requested-With" \
-* -X GET --verbose \
-* enter-your-api-gw-url-here/say-hello
+curl -H "Origin: http://google.com" \
+-H "Access-Control-Request-Method: GET" \
+-H "Access-Control-Request-Headers: X-Requested-With" \
+-X GET --verbose \
+your-function-url-here
